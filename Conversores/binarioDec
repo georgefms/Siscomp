@@ -1,0 +1,16 @@
+#definindo a funçao de conversão Binario para Decimal:
+#o laço realiza a conversão por indice i em cada digito do numero binario
+#depois é realizada o calculo da conversão e temos a sua impressão
+while True:
+    def BinDec(binario): 
+        decimal = 0 
+        for i in binario: 
+            decimal = decimal*2 + int(i) 
+        print("O numero convertido pra decimal: ", decimal)
+
+    # Pegando o Input binariio 
+    binario = input("Digite um numero em binario: ")
+
+    # Chamando a função 
+    BinDec(binario)
+
